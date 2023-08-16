@@ -1,0 +1,152 @@
+    body,
+    html {
+        height: 100%;
+        /* take up the 100% of the page */
+    }
+    
+    .navbar {
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        font-size: 1.2em;
+    }
+    /* Logo */
+    
+    .navbarL {
+        float: left;
+        color: white;
+        padding: 14px 16px;
+    }
+    
+    .navbarR {
+        float: right;
+        color: white;
+        padding: 14px 16px;
+    }
+    /* Links inside the navbar */
+    
+    .navbarR a {
+        float: left;
+        font-size: 16px;
+        color: rgb(29, 179, 96);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration-line: none;
+    }
+    /* The dropdown container */
+    
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    /* Dropdown button */
+    
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: rgb(29, 179, 96);
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+    /* Hover Link */
+    
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        color: red;
+    }
+    /* Dropdown content */
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(191, 255, 220);
+        min-width: 150px;
+    }
+    /* Links inside the dropdown */
+    
+    .dropdown-content a {
+        float: none;
+        color: rgb(95, 95, 95);
+        padding: 12px 16px;
+        display: block;
+        text-align: center;
+    }
+    /* Show the dropdown menu on hover */
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .image {
+        float: left;
+        padding: 5px;
+    }
+    
+    .container {
+        white-space: nowrap;
+        animation: slide-right 10s linear infinite;
+    }
+    
+    .image {
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+    
+    @keyframes slide-right {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .footer1 {
+        float: left;
+        display: flex;
+        text-align: left;
+        margin-top: 0%;
+        padding: 2rem;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    
+    .fa-square-facebook {
+        padding: 2px 8px;
+        color: #3b5998;
+    }
+    
+    .fa-square-twitter {
+        padding: 2px 8px;
+        color: #26a7de;
+    }
+    
+    .fa-square-instagram {
+        /*color: rgba(68, 68, 68, 0.404);*/
+        margin: 1px 8px 1px 8px;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    }
+    
+    .fa-square-whatsapp {
+        padding: 2px 8px;
+        color: #2BB741;
+    }
+    
+    .fa-linkedin {
+        padding: 2px 8px;
+        color: #0072b1;
+    }
+    
+    .platform {
+        padding: 2rem;
+        float: right;
+    }
