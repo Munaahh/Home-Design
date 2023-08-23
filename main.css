@@ -101,14 +101,7 @@
         margin: 10px;
     }
     
-    @keyframes slide-right {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-100%);
-        }
-    }
+    
     
     .footer1 {
         float: left;
